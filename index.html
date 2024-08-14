@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPC TOUR</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
+
+
+
+    ">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>IPC <span>TOUR</span> </h1>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="">Inicio</a>
+                    <a href="">Exemplos</a>
+                    <a href="">Passeios</a>
+                    <a href="">Blog</a>
+                    <a href="">Ajuda</a>
+                </li>
+            </ul>
+        </div>
+        <div class="button-container">
+            <button class="entrar">Entrar</button>
+            <button class="cadastro">Cadastro</button>
+        </div>
+    </header>
+    <main>
+        <div class="text-main">
+            <h2>VIAGENS <span>NACIONAIS</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="text-main2">
+            <h2>VIAGENS <span>INTERNACIONAIS</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="text-main3">
+            <h2>PASSEIOS <span>DIARIOS</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+    </main>
+
+    <section>
+        <form>
+            <div class="form-container">
+                <h2>Simule sua viagem</h2>
+                <div class="form-group">
+                    <label for="from">De onde você vai sair?</label>
+                    <input type="text" id="from" name="from" placeholder="Cidade ou Local de Saída" required>
+                </div>
+                <div class="form-group">
+                    <label for="to">Para onde você vai?</label>
+                    <input type="text" id="to" name="to" placeholder="Cidade ou Local de Chegada" required>
+                </div>
+                <div class="form-group radio-group">
+                    <label>Tipo de Passagem:</label>
+                    <label><input type="radio" name="type" value="one-way" checked> Somente Ida</label>
+                    <label><input type="radio" name="type" value="round-trip"> Ida e Volta</label>
+                </div>
+                <div class="form-group">
+                    <label for="departure-date">Data de Ida:</label>
+                    <input type="date" id="departure-date" name="departure-date" required>
+                </div>
+                <div class="form-group" id="return-date-group">
+                    <label for="return-date">Data de Volta:</label>
+                    <input type="date" id="return-date" name="return-date">
+                </div>
+                <div class="form-group">
+                    <label>Passagem com Benefícios:</label>
+                    <label><input type="checkbox" name="benefits" value="elderly"> Pessoas Idosas</label>
+                    <label><input type="checkbox" name="benefits" value="free-pass"> Passe Livre</label>
+                    <label><input type="checkbox" name="benefits" value="young-id"> ID Jovem</label>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Simular Viagem</button>                    
+                </div>
+            </div>
+
+        </form>
+    </section>
+<main>
+    <div class="text-main1">
+        <h2>DESTINOS <span>POPULARES</span></h2>
+        <p>Lorem  elit Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat exercitationem quaerat optio, dolorem tenetur impedit voluptatum assumenda dicta atque suscipit delectus eligendi eos animi voluptate dolores explicabo dolore. Reprehenderit, a?  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum nulla fuga recusandae asperiores aspernatur exercitationem totam itaque quidem at, reprehenderit, nostrum placeat laboriosam, voluptates dolores. Maiores eveniet ipsum beatae esse.dolor sit amet consectetur adipisicing elitp </p>
+    </div>
+
+    <div class="carousel-container" id="carousel">
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="./img/222edas.jpg" alt="Destino 1">
+                <h3>Destino 1</h3>
+                <p>Lorem ipsum dolor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias totam omnis repellendus quidem possimus eos odio sequi autem, vitae, quibusdam unde cum praesentium odit, inventore ipsa nemo ratione sit quae.sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/222.jpg" alt="Destino 2">
+                <h3>Destino 2</h3>
+                <p>Lorem ipsum dolor sit çLorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam et labore a autem expedita quibusdam corrupti eius accusamus odit, fuga sapiente delectus odio quasi mollitia, iusto impedit tenetur tempora! Officia! amet consectetur adipisicing elit</p>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/asd228da89.jpeg" alt="Destino 3">
+                <h3>Destino 3</h3>
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, omnis provident! Facere, quidem! Iure impedit porro natus mollitia! Reprehenderit cumque, dolores quae doloremque aperiam rerum minus voluptatum laboriosam. Dicta, laborum?consectetur adipisicing elit</p>
+            </div>
+        </div>
+        <button class="prev">‹</button>
+        <button class="next">›</button>
+    </div>
+</main>
+
+    <aside>
+        <div class="messenger-container">
+            <h2>Nos envie uma menssagem:</h2>
+            <input type="text" value="Seu nome">
+            <input type="email" value="Seu e-mail">
+            <textarea name="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </div>
+    </aside>
+
+
+    <footer>
+        <div class="sobre-container">
+            <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">SAC</a></li>
+              </ul>
+        </div>
+
+        <div class="icons-pagamentos">
+            <ul>
+                <li>Formas de pagamento</li>
+            </ul>
+            <i class="fa-brands fa-pix" id="pix"></i>
+            <i class="fa-solid fa-credit-card" id="card"></i>
+            <i class="fa-solid fa-barcode" id="boleto"></i>
+        </div>
+
+        <div class="contact-area">
+                    <div class="contact-info">
+                        <p><i class="fa fa-phone"></i> (11) 1234-8888
+                            <p><i class="fa fa-envelope"></i> contato@viagens.com
+                                <p><i class="fa fa-map-marker"></i> Rua das Viagens,
+                                    123, São Paulo - SP
+                                    </div>
+                                    
+        </div>
+      </footer>
+</body>
+
+</html>
